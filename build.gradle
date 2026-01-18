@@ -8,9 +8,12 @@ buildscript {
     }
 }
 
+plugins {
+    id 'eclipse'
+    id 'maven-publish'
+}
+
 apply plugin: 'net.minecraftforge.gradle'
-apply plugin: 'eclipse'
-apply plugin: 'maven-publish'
 
 version = '1.0.0'
 group = 'com.cheatmod'
@@ -55,14 +58,9 @@ repositories {
 dependencies {
     minecraft 'net.minecraftforge:forge:1.16.5-36.2.39'
     
-    // Apache POI для работы с Excel
     implementation 'org.apache.poi:poi:5.2.3'
     implementation 'org.apache.poi:poi-ooxml:5.2.3'
-    
-    // Gson для работы с JSON
     implementation 'com.google.code.gson:gson:2.10.1'
-    
-    // OkHttp для Telegram
     implementation 'com.squareup.okhttp3:okhttp:4.11.0'
 }
 
@@ -79,8 +77,6 @@ jar {
         ])
     }
 }
-
-jar.finalizedBy('reobfJar')
 
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8'
