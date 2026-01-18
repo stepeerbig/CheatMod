@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "com.cheatmod.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "cheatmod.refmap.json",
+  "mixins": [
+    "MinecraftMixin",
+    "GuiScreenMixin",
+    "NetworkManagerMixin"
+  ],
+  "client": [
+    "MinecraftClientMixin"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

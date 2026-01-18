@@ -1,0 +1,411 @@
+{
+  "version": "1.0",
+  "items": [
+    {
+      "displayName": "Руна силы",
+      "minecraftId": "minecraft:popped_chorus_fruit",
+      "minPrice": 10,
+      "maxPrice": 30,
+      "customEffects": "+30%Урон -30%Скорость",
+      "enchantments": []
+    },
+    {
+      "displayName": "Руна сопротивления",
+      "minecraftId": "minecraft:popped_chorus_fruit",
+      "minPrice": 10,
+      "maxPrice": 30,
+      "customEffects": "+1 Сопротивление отбрасыванию,+10%Скорость,+10%Урон, -4 Максимальное здоровье",
+      "enchantments": []
+    },
+    {
+      "displayName": "Руна скорости",
+      "minecraftId": "minecraft:popped_chorus_fruit",
+      "minPrice": 10,
+      "maxPrice": 30,
+      "customEffects": "+6 Максимальное здоровье,+20%Скорость,+20%Скорость атаки,-15%Урон",
+      "enchantments": []
+    },
+    {
+      "displayName": "Руна поглощения",
+      "minecraftId": "minecraft:popped_chorus_fruit",
+      "minPrice": 10,
+      "maxPrice": 30,
+      "customEffects": "-50%Максимальное здоровье,+20%Скорость,+50%Урон",
+      "enchantments": []
+    },
+    {
+      "displayName": "Небесная руна",
+      "minecraftId": "minecraft:popped_chorus_fruit",
+      "minPrice": 10,
+      "maxPrice": 30,
+      "customEffects": "+4 Максимальное здоровье,+120% Скорость атаки",
+      "enchantments": []
+    },
+    {
+      "displayName": "Руна усиления",
+      "minecraftId": "minecraft:popped_chorus_fruit",
+      "minPrice": 10,
+      "maxPrice": 30,
+      "customEffects": "+20 Максимальное здоровье,+20%Урон",
+      "enchantments": []
+    },
+    {
+      "displayName": "Руна везения",
+      "minecraftId": "minecraft:popped_chorus_fruit",
+      "minPrice": 10,
+      "maxPrice": 30,
+      "enchantments": []
+    },
+    {
+      "displayName": "Тотем - крепкое здоровье I",
+      "minecraftId": "minecraft:totem_of_undying",
+      "minPrice": 10,
+      "maxPrice": 30,
+      "enchantments": []
+    },
+    {
+      "displayName": "Тотем - крепкое здоровье II",
+      "minecraftId": "minecraft:totem_of_undying",
+      "minPrice": 10,
+      "maxPrice": 30,
+      "enchantments": []
+    },
+    {
+      "displayName": "Тотем - силы",
+      "minecraftId": "minecraft:totem_of_undying",
+      "minPrice": 10,
+      "maxPrice": 30,
+      "enchantments": []
+    },
+    {
+      "displayName": "Тотем - укрепления",
+      "minecraftId": "minecraft:totem_of_undying",
+      "minPrice": 10,
+      "maxPrice": 30,
+      "customEffects": "+10% скорость,+4 Броня,+4 Твёрдность брони",
+      "enchantments": []
+    },
+    {
+      "displayName": "Тотем - скорости",
+      "minecraftId": "minecraft:totem_of_undying",
+      "minPrice": 10,
+      "maxPrice": 30,
+      "customEffects": "+6 Максимальное здоровье,+20%Скорость,+20%Скорость атаки,-15%Урон",
+      "enchantments": []
+    },
+    {
+      "displayName": "Тотем - халка",
+      "minecraftId": "minecraft:totem_of_undying",
+      "minPrice": 10,
+      "maxPrice": 30,
+      "customEffects": "+30%Урон,-30%Скорость",
+      "enchantments": []
+    },
+    {
+      "displayName": "Неразрушаемый щит",
+      "minecraftId": "minecraft:shield",
+      "minPrice": 10,
+      "maxPrice": 30,
+      "enchantments": [
+        {
+          "name": "unbreaking",
+          "level": 5,
+          "priceModifier": 1.0
+        }
+      ]
+    },
+    {
+      "displayName": "Неразрушаемый щит-крепкого здоровья",
+      "minecraftId": "minecraft:shield",
+      "minPrice": 10,
+      "maxPrice": 30,
+      "enchantments": []
+    },
+    {
+      "displayName": "Элитра",
+      "minecraftId": "minecraft:elytra",
+      "minPrice": 10,
+      "maxPrice": 30,
+      "enchantments": [
+        {
+          "name": "unbreaking",
+          "level": 5,
+          "priceModifier": 1.0
+        }
+      ]
+    },
+    {
+      "displayName": "Сверхпрочная кирка",
+      "minecraftId": "minecraft:diamond_pickaxe",
+      "minPrice": 10,
+      "maxPrice": 30,
+      "enchantments": [
+        {
+          "name": "efficiency",
+          "level": 10,
+          "priceModifier": 1.0
+        },
+        {
+          "name": "unbreaking",
+          "level": 5,
+          "priceModifier": 1.0
+        },
+        {
+          "name": "fortune",
+          "level": 3,
+          "priceModifier": 1.0
+        }
+      ]
+    },
+    {
+      "displayName": "Сверхпрочный топор",
+      "minecraftId": "minecraft:diamond_axe",
+      "minPrice": 10,
+      "maxPrice": 30,
+      "enchantments": [
+        {
+          "name": "efficiency",
+          "level": 10,
+          "priceModifier": 1.0
+        },
+        {
+          "name": "unbreaking",
+          "level": 5,
+          "priceModifier": 1.0
+        },
+        {
+          "name": "fortune",
+          "level": 3,
+          "priceModifier": 1.0
+        }
+      ]
+    },
+    {
+      "displayName": "Божественная кирка",
+      "minecraftId": "minecraft:netherite_pickaxe",
+      "minPrice": 10,
+      "maxPrice": 30,
+      "specialAbility": "Эффективность X , Прочность V , Удача III | Кирка имеет свойство ломать территори. 3x3x3",
+      "enchantments": [
+        {
+          "name": "efficiency",
+          "level": 10,
+          "priceModifier": 1.0
+        },
+        {
+          "name": "unbreaking",
+          "level": 5,
+          "priceModifier": 1.0
+        },
+        {
+          "name": "fortune",
+          "level": 3,
+          "priceModifier": 1.0
+        }
+      ]
+    },
+    {
+      "displayName": "Божественный топор",
+      "minecraftId": "minecraft:netherite_axe",
+      "minPrice": 10,
+      "maxPrice": 30,
+      "specialAbility": "Эффективность X , Прочность V , Удача III | Топор имеет свойство ломать территори. 3x3x3",
+      "enchantments": [
+        {
+          "name": "efficiency",
+          "level": 10,
+          "priceModifier": 1.0
+        },
+        {
+          "name": "unbreaking",
+          "level": 5,
+          "priceModifier": 1.0
+        },
+        {
+          "name": "fortune",
+          "level": 3,
+          "priceModifier": 1.0
+        }
+      ]
+    },
+    {
+      "displayName": "Божественная лопата",
+      "minecraftId": "minecraft:netherite_shovel",
+      "minPrice": 10,
+      "maxPrice": 30,
+      "specialAbility": "Эффективность X , Прочность V , Удача III | Лопата имеет свойство ломать территори. 3x3x3",
+      "enchantments": [
+        {
+          "name": "efficiency",
+          "level": 10,
+          "priceModifier": 1.0
+        },
+        {
+          "name": "unbreaking",
+          "level": 5,
+          "priceModifier": 1.0
+        },
+        {
+          "name": "fortune",
+          "level": 3,
+          "priceModifier": 1.0
+        }
+      ]
+    },
+    {
+      "displayName": "Мульти-инструмент",
+      "minecraftId": "minecraft:diamond_shovel",
+      "minPrice": 10,
+      "maxPrice": 30,
+      "specialAbility": "Эффективность X , Прочность V , Удача III , Мульти-инструмент",
+      "enchantments": [
+        {
+          "name": "efficiency",
+          "level": 10,
+          "priceModifier": 1.0
+        },
+        {
+          "name": "unbreaking",
+          "level": 5,
+          "priceModifier": 1.0
+        },
+        {
+          "name": "fortune",
+          "level": 3,
+          "priceModifier": 1.0
+        }
+      ]
+    },
+    {
+      "displayName": "3x3 Мульти-инструмент",
+      "minecraftId": "minecraft:netherite_shovel",
+      "minPrice": 10,
+      "maxPrice": 30,
+      "specialAbility": "Эффективность X , Прочность V , Удача III . Ломает территорию 3x3! , Мульти-ниструмент",
+      "enchantments": [
+        {
+          "name": "efficiency",
+          "level": 10,
+          "priceModifier": 1.0
+        },
+        {
+          "name": "unbreaking",
+          "level": 5,
+          "priceModifier": 1.0
+        },
+        {
+          "name": "fortune",
+          "level": 3,
+          "priceModifier": 1.0
+        }
+      ]
+    },
+    {
+      "displayName": "Зачарованное золотое яблоко",
+      "minecraftId": "minecraft:enchanted_golden_apple",
+      "minPrice": 10,
+      "maxPrice": 30,
+      "enchantments": []
+    },
+    {
+      "displayName": "Фарм меч",
+      "minecraftId": "minecraft:netherite_sword",
+      "minPrice": 10,
+      "maxPrice": 30,
+      "enchantments": [
+        {
+          "name": "unbreaking",
+          "level": 5,
+          "priceModifier": 1.0
+        },
+        {
+          "name": "looting",
+          "level": 5,
+          "priceModifier": 1.0
+        },
+        {
+          "name": "sharpness",
+          "level": 3,
+          "priceModifier": 1.0
+        }
+      ]
+    },
+    {
+      "displayName": "Незеритовый шлем",
+      "minecraftId": "minecraft:netherite_helmet",
+      "minPrice": 10,
+      "maxPrice": 30,
+      "enchantments": []
+    },
+    {
+      "displayName": "Незеритовый нагрудник",
+      "minecraftId": "minecraft:netherite_chestplate",
+      "minPrice": 10,
+      "maxPrice": 30,
+      "enchantments": []
+    },
+    {
+      "displayName": "Незеритовые поножи",
+      "minecraftId": "minecraft:netherite_leggings",
+      "minPrice": 10,
+      "maxPrice": 30,
+      "enchantments": []
+    },
+    {
+      "displayName": "Незеритовые ботинки",
+      "minecraftId": "minecraft:netherite_boots",
+      "minPrice": 10,
+      "maxPrice": 30,
+      "enchantments": []
+    },
+    {
+      "displayName": "Прогрузчик чанков",
+      "minecraftId": "minecraft:beacon",
+      "minPrice": 10,
+      "maxPrice": 30,
+      "enchantments": []
+    },
+    {
+      "displayName": "Эльфийский эль",
+      "minecraftId": "minecraft:potion",
+      "minPrice": 10,
+      "maxPrice": 30,
+      "enchantments": []
+    },
+    {
+      "displayName": "Хитиновая кожа",
+      "minecraftId": "minecraft:potion",
+      "minPrice": 10,
+      "maxPrice": 30,
+      "enchantments": []
+    },
+    {
+      "displayName": "Облик оборотня",
+      "minecraftId": "minecraft:potion",
+      "minPrice": 10,
+      "maxPrice": 30,
+      "enchantments": []
+    },
+    {
+      "displayName": "Сила орка",
+      "minecraftId": "minecraft:potion",
+      "minPrice": 10,
+      "maxPrice": 30,
+      "enchantments": []
+    },
+    {
+      "displayName": "Скорость ассасина",
+      "minecraftId": "minecraft:potion",
+      "minPrice": 10,
+      "maxPrice": 30,
+      "enchantments": []
+    },
+    {
+      "displayName": "Зов предков",
+      "minecraftId": "minecraft:potion",
+      "minPrice": 10,
+      "maxPrice": 30,
+      "enchantments": []
+    }
+  ]
+}
