@@ -4,10 +4,10 @@ license="MIT"
 
 [[mods]]
 modId="cheatmod"
-version="${file.jarVersion}"
+version="1.0.0"
 displayName="Cheat Mod"
 description="Auto-buy mod for Mineblaze"
-authors="YourName"
+authors="stepeerbig"
 logoFile=""
 
 [[dependencies.cheatmod]]
@@ -20,6 +20,6 @@ logoFile=""
 [[dependencies.cheatmod]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16.5,1.17)"
+    versionRange="[1.16.5]"
     ordering="NONE"
     side="BOTH"
