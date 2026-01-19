@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: cheatmod
+Implementation-Version: 1.0.0
+Specification-Vendor: cheatmod
+Specification-Title: cheatmod
+Implementation-Timestamp: 2026-01-19T22:23:35+0300
+Specification-Version: 1
+Implementation-Vendor: cheatmod
+

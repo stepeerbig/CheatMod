@@ -15,6 +15,15 @@ plugins {
 
 apply plugin: 'net.minecraftforge.gradle'
 
+// Решение конфликтов версий
+configurations.all {
+    resolutionStrategy {
+        force 'org.apache.logging.log4j:log4j-api:2.11.2'
+        force 'org.apache.logging.log4j:log4j-core:2.11.2'
+        force 'org.apache.logging.log4j:log4j-slf4j-impl:2.11.2'
+    }
+}
+
 version = '1.0.0'
 group = 'com.cheatmod'
 archivesBaseName = 'CheatMod'
@@ -29,6 +38,7 @@ minecraft {
             workingDirectory project.file('run')
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
+            property 'mixin.env.disableRefMap', 'true'
             mods {
                 cheatmod {
                     source sourceSets.main
@@ -58,10 +68,21 @@ repositories {
 dependencies {
     minecraft 'net.minecraftforge:forge:1.16.5-36.2.39'
     
-    implementation 'org.apache.poi:poi:5.2.3'
-    implementation 'org.apache.poi:poi-ooxml:5.2.3'
+    // Apache POI для работы с Excel
+    implementation ('org.apache.poi:poi:5.2.3') {
+        exclude group: 'org.apache.logging.log4j'
+    }
+    implementation ('org.apache.poi:poi-ooxml:5.2.3') {
+        exclude group: 'org.apache.logging.log4j'
+    }
+    
+    // Gson для работы с JSON
     implementation 'com.google.code.gson:gson:2.10.1'
-    implementation 'com.squareup.okhttp3:okhttp:4.11.0'
+    
+    // OkHttp для Telegram
+    implementation ('com.squareup.okhttp3:okhttp:4.11.0') {
+        exclude group: 'org.apache.logging.log4j'
+    }
 }
 
 jar {

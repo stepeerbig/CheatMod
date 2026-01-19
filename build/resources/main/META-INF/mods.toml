@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+
+[[mods]]
+modId="cheatmod"
+version="1.0.0"
+displayName="Cheat Mod"
+description="Auto-buy mod for Mineblaze"
+authors="stepeerbig"
+logoFile=""
+
+[[dependencies.cheatmod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.cheatmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
